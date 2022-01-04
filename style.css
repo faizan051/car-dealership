@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,200;0,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Pushster&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    margin: 0;
+   
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0,0, 0);
+    padding: 5px auto;
+}
+
+.logo
+{
+    float: left;
+    margin-left: 30px;
+    padding: 8px;
+}
+
+nav
+{
+    float: right;
+    margin-right: 40px;
+    padding: 8px;
+   display: flex;
+}
+
+nav .search
+{
+    border: 5px solid gray ;
+    
+    background-color: white;
+    height:40px;
+    
+
+}
+
+nav .search img
+{
+    margin-top: 8px;
+    
+}
+
+
+nav a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav input
+{
+    padding: 10px;
+    width: 150px;
+    border-radius: 6px;
+    height: 10px;
+    outline: none;
+    border: none;
+}
+
+ .home
+{
+    background: url('herobg.jpg');
+   width: 100%;
+   height: 400px;
+   font-family: 'Montserrat', sans-serif;
+    font-family: 'Pushster', cursive;
+}
+
+.home .container
+{
+    display: flex;
+}
+
+.home .container img
+{
+    margin: 50px 0px 0px 100px;
+}
+
+.home .container .content
+{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pushster', cursive;
+}
+
+.home .container .content h1
+{
+    color: white;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pushster', cursive;
+    
+}
+
+.home .container .content p
+{
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pushster', cursive;
+}
+
+.home .container button
+{
+    padding: 15px;
+    background-color: rgb(205,101,14);
+    border:1px solid rgb(205,101,14);
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+
+section-2 .container .content
+{
+    text-align: center;
+    color: rgb(113,80,109);
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pushster', cursive;
+}
+
+section-2 .container .content h1{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pushster', cursive;
+}
+
+section-2 .container .content h3{
+    color: gray;
+    margin-top: -25px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pushster', cursive;
+}
+
+section-2 .container .row
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+section-2 .container .card
+{
+    color: rgb(113,80,109);
+    margin-left: 20px;
+}
+
+section-2 .container .card h2
+{
+  text-align: center;
+   margin: auto;
+   font-family: 'Montserrat', sans-serif;
+    font-family: 'Pushster', cursive;
+    font-size: 25px;
+ 
+}
+
+
+
+
+
+
